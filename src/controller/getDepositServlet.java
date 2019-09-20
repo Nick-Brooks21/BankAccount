@@ -36,7 +36,7 @@ public class getDepositServlet extends HttpServlet {
 		DepositTrans newDeposit = new DepositTrans(Integer.parseInt(deposit), Integer.parseInt(balance));
 		
 		request.setAttribute("bankAccount", newDeposit);
-		getServletContext().getRequestDispatcher("/output.jsp").forward(request, response); 
+		getServletContext().getRequestDispatcher("/depOutput.jsp").forward(request, response); 
 	}
 
 }

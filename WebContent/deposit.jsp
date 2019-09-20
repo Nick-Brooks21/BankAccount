@@ -12,14 +12,14 @@
 	<form action="getDepositServlet" method="post">
 	Please enter the amount in your bank account:
 	<input type="text" name="balance" size="12">
-	</form>
-	
-	<form action="getDepositServlet" method="post">
+	<br>
 	Please enter the amount you wish to deposit:
-	<input type="text" name="deposit" size="12">
+	<input type="text" name="deposit" size="12"> <br><br>
 	<input type="submit" value="Calculate Deposit" />
 	</form>
 
+	<br>
+	<br>
 	<a href="index.jsp">Return to Home Page</a>
 </body>
 </html>

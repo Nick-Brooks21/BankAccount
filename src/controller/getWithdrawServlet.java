@@ -35,7 +35,7 @@ public class getWithdrawServlet extends HttpServlet {
 		WithdrawTrans newWithdraw = new WithdrawTrans(Integer.parseInt(balance), Integer.parseInt(withdraw));
 		
 		request.setAttribute("bankAccount", newWithdraw);
-		getServletContext().getRequestDispatcher("/output.jsp").forward(request, response); 
+		getServletContext().getRequestDispatcher("/withOutput.jsp").forward(request, response); 
 	}
 
 }

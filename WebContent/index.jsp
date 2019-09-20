@@ -8,12 +8,19 @@
 </head>
 <body>
 	<h3 align="center">Welcome to your bank account! Select an option below to get started</h3>
-	<form action="deposit.jsp" method="post">
-	<input type="submit" value="Deposit" />
-	</form>
-	<br>
-	<form action="withdraw.jsp" method="post">
-	<input type="submit" value="Withdraw" />
-	</form>
+	<table>
+		<tr>
+			<td>
+				<form action="deposit.jsp" method="post">
+				<input type="submit" value="Make a Deposit" />
+				</form>
+			</td>	
+			<td>
+				<form action="withdraw.jsp" method="post">
+				<input type="submit" value="Make a Withdraw" />
+				</form>
+			</td>
+		</tr>
+	</table>
 </body>
 </html>

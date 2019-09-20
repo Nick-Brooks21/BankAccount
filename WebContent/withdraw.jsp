@@ -12,14 +12,14 @@
 	<form action="getWithdrawServlet" method="post">
 	Please enter the amount in your bank account:
 	<input type="text" name="balance" size="20">
-	</form>
-	
-	<form action="getWithdrawServlet" method="post">
+	<br>
 	Please enter the amount you wish to withdraw:
-	<input type="text" name="withdraw" size="20">
+	<input type="text" name="withdraw" size="20"> <br><br>
 	<input type="submit" value="Calculate Withdraw" />
 	</form>
-
+	
+	<br>
+	<br>
 	<a href="index.jsp">Return to Home Page</a>
 </body>
 </html>

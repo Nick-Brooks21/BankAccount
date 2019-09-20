@@ -9,14 +9,14 @@ public class WithdrawTrans {
 		super();
 	}
 	
-	public WithdrawTrans(int withdraw, int balance) {
+	public WithdrawTrans(int balance, int withdraw) {
 		super();
 		this.withdraw = withdraw;
 		this.balance = balance;
-		setWithdrawBalance(withdraw, balance);
+		setWithdrawBalance(balance, withdraw);
 	}
 
-	public void setWithdrawBalance(int withdraw, int balance) {
+	public void setWithdrawBalance(int balance, int withdraw) {
 		
 		balance = balance - withdraw;		
 	}
